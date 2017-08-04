@@ -1,0 +1,23 @@
+.hero-area{
+    background-image: url(../img/hero-bg-2.png);
+    background-color: #359af3;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.hero-form{
+    padding: 30px;
+    background: #fff
+        
+}
+.boxed-btn, .hero-form-wrapper input[type="submit"] {
+    background-color: #24dfa1;
+}
+
+
+.hero-area h1 {
+  color: #fff;
+  font-size: 45px;
+  margin-top: 85px;
+}
+
