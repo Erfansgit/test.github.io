@@ -1,0 +1,449 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #373737
+}
+body {
+    
+    font-family: 'Khula', sans-serif; font-size: 15px; color: #999
+
+}
+a:hover { text-decoration: none }
+
+
+
+.header-area{
+    padding: 20px 0
+}
+
+.mainmanu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmanu ul li {
+  display: inline-block;
+  position: relative;
+}
+.mainmanu ul li a {
+  display: block;
+  padding: 12px 15px;
+  color: #888;
+}
+
+.hero-area{
+    font-weight: 300;
+    padding: 150px 0;
+    border-bottom: 1px solid #f7f7f7
+}
+
+.hero-area h1{
+    font-size: 40px;
+    padding-top: 25px;
+    max-width: 440px;
+    margin-bottom: 28px;
+}
+
+.boxed-btn,input[type="submit"],button[type="submit"] {
+  display: inline-block;
+  font-size: 14px;
+  color: #ffff;
+  background: #ec4a71;
+  padding: 10px 25px;
+  border-radius: 2px;
+  border:none      
+}
+
+input[type="submit"],button[type="submit"]{
+    font-weight: 400;
+    padding: 13px 25px;
+}
+	
+input[type="url"],input[type="email"],input[type="password"],input[type="text"],textarea {
+	border: 1px solid #f0f0f0;
+	padding: 12px 18px;
+	
+}
+
+.website-checker-form{
+    margin-top:30px;
+}
+.website-checker-form input[type="url"]{
+    width: 315px;
+}
+
+.section-padding{
+    padding: 115px 0
+}
+
+.section-title{
+    margin-bottom: 90px
+}
+
+.single-service-box{
+    border: 1px solid #fafafa;
+    padding: 25px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 50px
+}
+
+.single-service-box h3{
+    font-size: 20px;
+    margin: 15px 0
+}
+
+.service-icon{
+    font-size: 30px;
+    color: #5d5a5b
+}
+
+.service-readmore-btn{
+    color: #373737;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px
+}
+
+.service-readmore-btn i.zmdi{
+    padding-left: 5px
+}
+
+.single-service-box:hover{
+    border-color:#ec4a71
+}
+
+
+.single-service-box:hover .service-icon, .single-service-box:hover h3, .single-service-box:hover a.service-readmore-btn{
+    color:#ec4a71
+}
+
+.pdt-50 {
+    padding-top: 50px;
+}
+
+h2{
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.pdt-50 .boxed-btn{
+    margin-top: 15px
+}
+
+.gray-bg{
+    background-color: #fbfbfb
+}
+
+.single-case-study {
+	display: table;
+	width: 100%;
+	height: 320px;
+	background: #ddd;
+	position: relative;
+}
+
+
+
+
+
+
+.case-study-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 30px;
+	width: 100%;
+	background: #ec4a71;
+	color: #fff;
+	opacity: 0;
+	visibility: hidden;
+	transition: 3s;
+}
+
+.case-study-wrapper h3, .case-study-wrapper h4{
+    color: #fff
+}
+.case-study-more {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	color: #333;
+	background: #fff;
+	line-height: 46px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+.single-case-study:hover .case-study-wrapper {
+	opacity: 1;
+	visibility: visible;
+}
+.case-studies-carousel.owl-carousel .owl-stage-outer {
+	overflow: inherit;
+}
+.section-padding.overflow-x-hidden{
+    overflow-x: hidden
+}
+
+.owl-dots{
+    text-align: center;
+    margin: 20px;
+}
+
+.owl-dots div{
+    display: inline-block;
+    height: 3px;
+    width: 20px;
+    background:#e2e2e2;
+    margin: 2px;            
+}
+
+.owl-dot.active{
+    background: #ec4a71
+}
+
+.single-testimonial-item {
+	text-align: center;
+}
+.testimonial-content {
+	font-size: 24px;
+	color: #373737;
+}
+
+.owl-item .testimonial-meta img {
+	display: inline-block;
+	width: 65px;
+	border-radius: 50%;
+}
+
+.testimonial-meta {
+	color: #999;
+	font-weight: 300;
+	font-size: 14px;
+    margin-top: 40px
+}
+.testimonial-carousel .owl-dots {
+	margin-top: 30px;
+}
+
+
+
+
+
+.cta-area {
+	padding: 60px 0px;
+	background: #f8f8f8;
+}
+
+.cta-area h2 {
+	margin: 0px 0;
+	padding-top: 8px;
+}
+
+
+
+
+/*dfdf*/
+.single-pricing-box {
+	border: 1px solid #f8f8f8;
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+
+.pricing-content {
+  font-size: 17px;
+  line-height: 2.3;
+}
+.pricing-heading {
+  border-bottom: 1px solid #f8f8f8;
+  font-size: 14px;
+  color: #999999;
+  font-weight: 300;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  transition: .2s;
+}
+.pricing-heading h4 {
+  font-size: 20px;
+  color: #373737;
+}
+.pricing-count {
+  font-size: 50px;
+  color: #ec4a71;
+  font-weight: 400;
+  line-height: 59px;
+  margin: 0;
+}
+
+.pricing-content ul {
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+}
+.pricing-content .boxed-btn {
+  line-height: 1.4;
+}
+.single-pricing-box:hover {
+  border-color: #ec4a71;
+}
+.single-pricing-box:hover.pricing-heading {
+  border-color: #ec4a71;
+}
+.single-pricing-box:hover .pricing-heading {
+  border-color: #ec4a71;
+}
+
+
+/*  Logo Carousel */
+
+.single-logo-item {
+  display: table;
+  height: 100px;
+  width: 100%;
+  opacity: .7;
+  transition: .2s;
+}
+.logo-item-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.single-logo-item:hover {
+  opacity: 1;
+}
+
+
+
+/* Footer Area */
+
+
+.footer-area {
+  background: #fdfdfd;
+    padding: 70px 0;
+}
+.footer-area h4 {
+  font-size: 20px;
+}
+.footer-area, .footer-area a {
+  color: #999999;
+}
+.footer-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2;
+}
+input {
+}
+.email-subcribe-form input[type=email] {
+  width: 67%;
+  background: #f6f6f6;
+  margin-right: -4px;
+  border-radius: 0px;
+  border: #f6f6f6;
+}
+.email-subcribe-form input[type=submit] {
+  width: 30%;
+  padding: 13px;
+  border-radius: 0px;
+}
+.email-subcribe-form {
+  margin-bottom: 35px;
+}
+
+.social-links i {
+    margin-right: 3px
+}
+
+.social-links a:hover {
+	color: #EF476F;
+}
+.footer-area ul.social-links li {
+  display: inline-block;
+  width: 30%;
+}
+
+
+
+.copyright-area {
+	background: #f7f7f7;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Hero area-2 */
+
+
+.hero-form {
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 10px 10px  rgba(255,255,255, 0.2)
+}
+
+/* Boxed shadow can also do by after effect
+.hero-form::after {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: .2;
+  border-radius: 5px;
+}*/
+
+
+.hero-form-header {
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hero-form-header h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.hero-form-wrapper input {
+  width: 100%;
+}
+.hero-form-wrapper input[type=submit] {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 35px;
+}
